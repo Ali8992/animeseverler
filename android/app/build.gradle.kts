@@ -6,9 +6,9 @@ plugins {
 
 android {
     namespace = "com.dompat.yt_downloader"
-    compileSdk = flutter.compileSdkVersion
-    // extractor için NDK sürümü (dokümanda 27.0.12077973 öneriliyor)
-    ndkVersion = "27.0.12077973"
+    compileSdk = 37
+    // extractor + diğer pluginler NDK 28.2.13676358 istiyor
+    ndkVersion = "28.2.13676358"
 
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_17
